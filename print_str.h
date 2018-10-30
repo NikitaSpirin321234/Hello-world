@@ -1,0 +1,1 @@
+void print_str(char* hello, char* name, int num);
