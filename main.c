@@ -7,7 +7,7 @@ int main(){
     char hello[90] = "Hello, ";
     char* result;
     result = get_name();
-    print_str(strncat(hello, result, 80));
+    print_str(hello, result, 50);
     free(result);
     return 0;
 }
